@@ -3,7 +3,7 @@ body {
     padding: 0%;
     margin: 0%;
 }
-section {
+.flex-container {
     display:flex;
     margin-bottom: 80px;
     
@@ -37,4 +37,33 @@ h1{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.flex {
+    display: flex;
+}
+.half{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   box-shadow: 10px 10px 40px gray;
+   padding: 20px;
+   border-radius: 10px;
+   border-left: 8px solid orange ;
+  
+}
+.e-h1 {
+    font-size: 35px;
+    
+}
+#exper {
+    border-left: 8px solid tomato;
+}
+footer p {
+    text-align: center;
+    margin-top: 35px;
 }
